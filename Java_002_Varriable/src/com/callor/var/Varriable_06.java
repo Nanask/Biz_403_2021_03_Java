@@ -22,6 +22,7 @@ public class Varriable_06 {
 		System.out.println(++intNum);
 		System.out.println(++intNum);
 		
+		System.out.println("==================================");
 		
 		intNum = 0;
 		// 1

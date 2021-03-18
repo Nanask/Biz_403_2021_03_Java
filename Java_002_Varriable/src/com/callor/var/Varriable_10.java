@@ -33,18 +33,19 @@ public class Varriable_10 {
 		//intNum1을 증가하고 == 1이된다.
 		//intNum1에 저장된 1을 더하여 inSum에 저장하라
 		//intSum = 0 + 1
-		intSum += (++intNum1) ; // intsum ==1
+		intSum += (++intNum1) ; // intSum ==1
 	
 		
-		
 		//intNum을 1 증가 ==2
-		//int
-		intSum += ++intNum1;
+		//intNum에 저장된 1을 더하여 intSum에 저장하라
+		//intSum = 1 + 2
+		intSum += ++intNum1; // intSum == 3
 		
 		
-		//intNum
-	 
-		intSum += ++intNum1;
+		//intNum을 1 증가 ==3
+		//intNum에 저장된 1을 더하여 intSum에 저장하라
+		//intSum = 3 + 3 
+		intSum += ++intNum1; // intSum == 6
 		
 		
 		

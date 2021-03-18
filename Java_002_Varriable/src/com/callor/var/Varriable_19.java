@@ -14,6 +14,8 @@ public class Varriable_19 {
 			System.out.println();
 			System.out.println();
 		}
+		
+			intNum = 1;
 			//++ 위치에 따라 결과값이 달라짐,
 			for( ;intNum < 10; ) {
 				System.out.println(++intNum);

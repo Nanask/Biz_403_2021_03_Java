@@ -7,9 +7,12 @@ public class Varriable_14 {
 		int intNum = 7;
 		int intSum = 0;
 		
+		
 		intSum += (intNum += 2);
 		intSum += (intNum += 5);
 		intSum += (intNum += 2);
+		
+		
 		
 		System.out.printf("sum:%d, Num:%d", intSum,intNum);
 	}

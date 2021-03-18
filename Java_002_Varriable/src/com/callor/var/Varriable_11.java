@@ -13,7 +13,11 @@ public class Varriable_11 {
 		int intSum = 0; // 결과를 저장할 변수를 생성
 		intNum = 1; // 시작값을 1로!
 		
-		// intSum = intSum + intNum;
+		System.out.println("======================");
+		System.out.printf("intNum : %d, intSum : %d\n ", 
+						intNum, intSum);
+		
+		// intSum = intSum + intNum; //intSum=0 intNum=1
 		System.out.printf("intNum : %d, intSum : %d\n ",
 						intNum, intSum);
 

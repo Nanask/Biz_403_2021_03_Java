@@ -7,8 +7,10 @@ public class Varriable_05 {
 		int intNum = 1;
 		int intSum = 0;
 		
-		intNum ++; // 1
-		intSum += intNum; //
+		intSum += intNum; //1
+		
+		intNum ++; // 2
+		intSum += intNum; //intSum = 1 + 2
 
 		intNum ++; // 1
 		intSum += intNum; //

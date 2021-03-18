@@ -12,13 +12,26 @@ public class Varriable_13 {
 		// 2. intSum에 intNum변수에 저장된 값을 읽어서 추가하라
 		// 	intSum = 2
 		
-		intSum += (intNum += 2);
-		System.out.println(intSum);
+		intSum += (intNum += 2); 
 		
-		intSum += (intNum += 2);
-		// ?? intSum
+		System.out.println("intNum : " + intNum);
+		System.out.println("intSum : " + intSum);
+		
+		
+		// intNum = 2 
+		
+		//intNum = 4
 		
 		intSum += (intNum += 5);
+		// intNum
+		
+		System.out.println("intNum2 : " + intNum);
+		System.out.println("intSum2 : " + intSum);
+		
+		intSum += (intNum += 5);
+		
+		System.out.println("intNum3 : " + intNum);
+		System.out.println("intSum3 : " + intSum);
 		
 		
 				
