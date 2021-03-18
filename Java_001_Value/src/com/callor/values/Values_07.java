@@ -22,7 +22,7 @@ public class Values_07 {
 		 * == 프로젝트의 중요한 부분에서 틀린결과가 포함 될 수 있다.
 		 */
 		
-		System.out.println( 33 % 3 ) > 0
+		System.out.println( (33 % 3 ) > 0
 						? " 3의 배수가 아니다 "
 						: " 3의 배수 " );
 	}
