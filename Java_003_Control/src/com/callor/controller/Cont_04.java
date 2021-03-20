@@ -22,12 +22,13 @@ public class Cont_04 {
 			//intNum에는 index값에 1을 더한 값이 저장된다.
 			//결국 intNum는 0 ~ 9 까지 값이 하나씩 저장된다.
 			//	index ++
-			//	inNum = index +1
+			//	intNum = index +1
 			intNum = index + 1;
 			
 			//intSum = intSum + intNum;
 			intSum += intNum;
 		}
+		System.out.println("----------------------------------------------");
 		
 		intSum = 0;
 		for(int i = 0 ; i < 10 ; i++) {
@@ -38,27 +39,28 @@ public class Cont_04 {
 		
 		intSum = 0;
 		for(int index = 0 ; index < 10 ; index += 2) {
+			intSum += index;
+		}
 		
-	}
 		System.out.println(intSum); // 1부터 10까지 짝수의 합
 		
 		intSum = 0;
 		for(int index = 0 ; index < 10 ; index += 2) {
 		int num = index + 1;
 		intSum += num; 
-
-}
+		}
 		System.out.println(intSum); //1부터 10까지 홀수의 합
+		
 		System.out.println("====================================================");
 		for(int index = 0 ; index < 10 ; index += 2) {
-			System.out.println(index);
+			System.out.println(index); //짝수
 			
 		}
 		
 		System.out.println("====================================================");
 		for(int index =0 ; index < 10; index += 2) {
 			int num = index + 1;
-			System.out.println(num);
+			System.out.println(num); // 홀수
 			
 		}
 		

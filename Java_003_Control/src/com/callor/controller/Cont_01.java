@@ -12,7 +12,6 @@ public class Cont_01 {
 		System.out.println("========================================");
 		
 		// ++가 다른 명령문과 함께 사용될때는 변수의 앞, 뒤에 따라 결과가 달라진다.
-		System.out.println(intNum + ".우리나라 대한민국\n");
 		System.out.println(intNum++ + ".우리나라 대한민국\n");
 		System.out.println(intNum++ + ".우리나라 대한민국\n");
 		System.out.println(intNum++ + ".우리나라 대한민국\n");
@@ -40,13 +39,13 @@ public class Cont_01 {
 			}
 		intNum = 0;
 		for(; intNum < 10; intNum++) { //for문에서 명령을 별도로 지정
-			System.out.println(intNum +);
+			System.out.println(intNum ++);
 		
 		
 		
 		}
 		/*
-		 * 1.for() 명령문을 만나면 intNum=0을 싱행한다.
+		 * 1.for() 명령문을 만나면 intNum=0을 실행한다.
 		 * 이 명령은 반복횟수와 관계없이 최초에 단 한번만 실행된다.
 		 * 
 		 * 2.intNum<10 을 실행하여 조건을 검사한다.

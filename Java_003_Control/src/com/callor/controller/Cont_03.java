@@ -4,8 +4,8 @@ public class Cont_03 {
 	
 	public static void main(String[] args) {
 		
-		//0~9까지 출력하
-		for(int i =0 ; i < 10 ; i ++) {
+		//0~9까지 출력하기
+		for(int i =0 ; i < 10 ; i++) {
 			
 			System.out.println(i);
 		}
@@ -22,24 +22,26 @@ public class Cont_03 {
 		 */
 		
 		for(int i=0 ; i< 10 ; i++) {
-	}
-		for(int i= 0 ; i < 10 ; i++) {
-			System.out.println("우리나라");
+			System.out.println(i + 1);
 			
-			
-		
 		}
 		System.out.println("===================================================");
-		
+		for(int i= 0 ; i < 10 ; i++) {
+			System.out.println("우리나라");
+
+		}
+		System.out.println("===================================================");
 		for(int i = 0; i<10 ; i++) {
-			int sum = i + 1 ;
 			System.out.println("대한민국");
-			
-	
+		}
+		System.out.println("===================================================");
+		for(int i =0 ; i < 10 ; i++) {
+			i++;
+			System.out.println("Republic of Korea");
 		}
 		
+		System.out.println("===================================================");
 		for(int i =0 ; i < 10 ; i += 2) {
-			i++;
 			System.out.println("Republic of Korea");
 		}
 		
@@ -47,11 +49,11 @@ public class Cont_03 {
 		 * for()반복문내에서 i++를 실행하고 {for 본문명령문} 내에서 i--를 실행했다.
 		 * 이런상황이 되면 i값은 1<10 조건에서 항상 true인 상태가 되어 무한 반복되는 코드가 된다.
 		 */
-		for(int i = 0 ; i < 10 ; i++) {
-			i--;
-			System.out.println("대한민국 만세");
-			// 무한으로 반복, i++로 증가시키고 i--로 감소시켰기 때문에 영원히 값이 0이 됨
-		}
+//		for(int i = 0 ; i < 10 ; i++) {
+//			i--;
+//			System.out.println("대한민국 만세");
+//			// 무한으로 반복, i++로 증가시키고 i--로 감소시켰기 때문에 영원히 값이 0이 됨
+//		}
 
 }
 }

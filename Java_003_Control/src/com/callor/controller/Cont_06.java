@@ -22,7 +22,7 @@ public class Cont_06 {
 		for(int index = 0; index < 10 ; index++) {
 			
 			int num= index + 1;
-			System.out.printf("%3d, %s\n",num,strNation );
+			System.out.printf("%3d. %s\n",num,strNation );
 		}
 		System.out.println("=====================================");
 		

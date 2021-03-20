@@ -4,7 +4,7 @@ public class cont_07 {
 	
 	public static void main(String[] args) {
 		
-		int intNum = 257;
+		int intNum = 233;
 		intNum = 9;
 		
 		// for(int i = 2 ; i< 7 ; i++)

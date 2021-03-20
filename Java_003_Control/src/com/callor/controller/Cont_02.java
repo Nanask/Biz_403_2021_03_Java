@@ -15,10 +15,11 @@ public class Cont_02 {
 	public static void main(String[] args) {
 
 		int num = 0;
-		for(num = 0 ; num < 10 ; num ++) {}
-		
-		
+		for(num = 0 ; num < 10 ; num ++) {
+			System.out.println(num + 1);
+		}
 		for( int index = 0; index < 10 ; index ++) {
+			System.out.println(index + 1);
 	}
 		/*
 		 * 반복비교하기 위해 사용하는 변수를 i로 선언 및 초기화하고 조건문을 설정하는 일반적인 반복(구)문
@@ -27,15 +28,19 @@ public class Cont_02 {
 		 */
 		
 		for(int i = 0 ; i < 10 ; i++) { 
-			System.out.println(i + 1); // i라는 코드 앞에 ++를 사용하면 결과값이 변환됨. 사용 x , 1부터 시작하고 싶다면 i + 1
-											//을 사용하면 가능
+			System.out.println(i + 1); // 1부터 시작하고 싶다면 i + 1 을 사용하면 가능
 			
 		//for안에서 선언된 값은 i를 또 사용해도 사용없다. 	
 		}
 		
-		intNum=0
 		for(int i = 0 ; i < 10 ; i++) { 
 			System.out.println(i + 1);
 }
+		
+
+		for(int i = 0 ; i < 100 ; i++) { 
+			System.out.println(i + 1);
+		}
 	}
+		
 }
