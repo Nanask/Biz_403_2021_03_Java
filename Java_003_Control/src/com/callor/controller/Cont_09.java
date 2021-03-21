@@ -33,6 +33,7 @@ public class Cont_09 {
 				System.out.println(i + "는 3의 배수");
 			}else {
 				System.out.println(i + "는 3의 배수가 아니다.");
+				
 			}
 		}
 	}

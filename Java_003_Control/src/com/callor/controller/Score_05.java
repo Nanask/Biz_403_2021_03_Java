@@ -24,5 +24,6 @@ public class Score_05 {
 		System.out.printf("총점 : %d, 평균 : %3.2f", intSum, floatAvg);
 		
 		//선언하는 곳과 계산하는 곳 분리!
+		
 	}
 }

@@ -31,19 +31,16 @@ public class Score_03 {
 		
 		//평균을 저장할 변수를 float형으로 
 		float floatAvg = intSum / 2;
-		System.out.println("평균 : " + floatAvg);
 		
 		//intSum / 2 연산식에서 정수형변수 intSum을 FLOAT형으로 강제 형변환 하면
 		//젯수(나누는 수)인 2도 2.0으로 변환된다.
 		//결국 실수 / 실수 연산이 되어 소수점이하 값을 포함하는 계산 결과가 만들어진다.
-		float floatAvg = intSum / 2;
-		
-		
 		floatAvg = (float)intSum / 2;
 		floatAvg = intSum / 2.0F;
 		
 		
 		floatAvg = intSum / (float)2; //실무에서는 자주 사용하지 않음
+		floatAvg = (float)intSum / 2.0f;
 		floatAvg = (float)intSum / (float)2;
 		
 		

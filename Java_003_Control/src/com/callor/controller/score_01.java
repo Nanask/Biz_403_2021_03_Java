@@ -6,29 +6,43 @@ public class score_01 {
 
 		// intSum 변수에 3과목 총점, intAng 변수에 평균을 계산하여 저장하고 다음과 같이 출력하라
 		
-		int intKor = 88;
-		int intEng = 77;
-		int intMath = 65;
+		int intKor = 0;
+		int intEng = 0;
+		int intMath = 0;
 		
+		String strKor = "국어";
+		String strEng = "영어";
+		String strMath = "수학";
+
 		int intSum = 0;
-		int intAvg = 0;
+		int intAng = 0;
+		
+		intKor = 80;
+		intEng = 77;
+		intMath = 65;
 		
 		intSum = intKor;
 		intSum += intEng;
 		intSum += intMath;
 		
-		String strKor = "국어";
-		String strEng = "영어";
-		String strMath = "수학";
+		intAng = (intKor + intEng + intMath)/3;
+		
+		System.out.println("==========================================");
+		System.out.println(strKor + " : " + intKor);
+		System.out.println(strEng + " : " + intEng);
+		System.out.println(strMath + " : " + intMath);
+		System.out.println("------------------------------------------");
+		System.out.printf("총점 : %d\t 평균 : %d\n" , intSum , intAng);
+		System.out.println("==========================================");
 		
 		
 		
-		System.out.println("================================================");
-		System.out.println("StrKor : " + intKor);
-		System.out.println("StrEng : " + intEng);
-		System.out.println("StrEng : " + intMath);
-		System.out.println("================================================");
-		System.out.printf("%d + %d + % d = %d", intKor , intEng , intMath , );
+		
+		
+		
+		
+		
+		
 		
 		
 		/*

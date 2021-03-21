@@ -21,4 +21,5 @@ public class Score_04 {
 		System.out.println("===================================");
 	}
 
+	
 }

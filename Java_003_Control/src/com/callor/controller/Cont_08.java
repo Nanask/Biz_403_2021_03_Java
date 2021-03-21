@@ -32,6 +32,7 @@ public class Cont_08 {
 			if (bYes) {
 				System.out.println("소수가 아님");
 				break;
+				
 			}
 		}
 	}

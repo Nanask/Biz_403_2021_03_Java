@@ -17,6 +17,7 @@ public class Cont_10 {
 			System.out.println(intNum + "는 5의 배수");
 		}	else {
 				System.out.println("3,2,5의 배수가 아님");
+				
 		}
 	}
 }

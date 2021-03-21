@@ -18,8 +18,8 @@ public class Varriable_01 {
 		 * true, false : 키워드이면서 하나의 값
 		 */
 		
-		boolean Byes2 = true;
-		bYes2 = false;
+		boolean byes2 = true;
+		//bYes2 = false;
 		
 		//비교 연산자
 		//어떤 값들이 같은지 크기가 어떠한지를 판단하는 연산

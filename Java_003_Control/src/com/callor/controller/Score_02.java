@@ -15,7 +15,7 @@ public class Score_02 {
 		
 		// int, Integer로 선언된 변수에는
 		// -2의 31승 ~ 2의 31승 -1까지의 값만 지정할 수 있다.
-		intNum = 100_000_000_00;
+		intNum = 100_000_000_0;
 		
 		// long, Long 으로 선언된 변수에는
 		// -2의 63승 ~2의 63 -1까지의 값만 저장
@@ -26,7 +26,7 @@ public class Score_02 {
 		// 3.33_333_333_333_333 * 10^14
 		
 		int intNum1 = 100;
-		float floatNum = 100.0F;
+		float floatNum1 = 100.0F;
 		
 		//정수 값 100을 실수형(float)변수에 저장하라
 		//100을 1 * 10^2으로 변환하여 저장
