@@ -31,6 +31,7 @@ public class Array_02 {
 		
 		for(int index = 0 ; index < 3 ; index++ ) {
 			System.out.println(intKors[index]);
+			
 		}
 		
 	}

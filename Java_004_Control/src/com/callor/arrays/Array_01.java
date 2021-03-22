@@ -10,7 +10,7 @@ public class Array_01 {
 		
 		// 정수값 10개를 저장할 변수를 선언하라
 		// 정수형 배열 100개를 선언하라
-		int[] intKors = new int[10]; // 정수범위내에서는 []안의 숫자는 변경 가능
+		int[] intKors = new int[100]; // 정수범위내에서는 []안의 숫자는 변경 가능
 		
 		for(int i = 0 ; i < 100 ; i++) {
 			//intKors[0] = rnd.nextInt(100) + 1
@@ -20,6 +20,7 @@ public class Array_01 {
 			intKors[i] = rnd.nextInt(100)+ 1 ;
 			
 		}
+		
 		int intSum = 0;
 		for(int i = 0 ; i < 100 ; i++) {
 			
@@ -29,11 +30,12 @@ public class Array_01 {
 			
 			intSum += intKors[1];
 		}
+		System.out.println("====================================");
 		for(int i = 0 ; i < 100 ; i++) {
-			System.out.println("학생 %d : %d" , i+1, intKors[i]);
+			System.out.printf("학생 %d : %d" , i+1, intKors[i]);
 		
 		}
-		System.out.println("총점: ");
+		System.out.printf("총점 : %d, 평균 : ", intSum);
 		
 		}
 
