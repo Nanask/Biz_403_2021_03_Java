@@ -45,7 +45,6 @@ public class Controller_06 {
 		str2 = "이몽룡";
 		String str3 = new String();
 		
-		
 		/*
 		 * wrapper 클래스
 		 * = 클래스 이지만 변수 선언처럼 사용할 수 있는 도구들

@@ -30,6 +30,10 @@ public class Controller_12 {
 
 		System.out.println("===================================");
 		System.out.printf("합계 : %d", intSum);
+		
+		//for() {}안에서 선언된 변수 num은 for() 명령이 끝나면 소멸한다.
+		//변수 i도 for() 안에서 선언되었기 때문에 for() 명령이 끝나면 소멸된다.
+		//System.out.println(num);
 
 		/*
 		 * scope(범위) 라고 한다. {} : 변수의 사용 범위를 제한하는 역할을 한다.
@@ -45,6 +49,7 @@ public class Controller_12 {
 		 * for() 반복문이 수행되는 동안에 어떤 값을 누적(합산)하거나 할때 for() 반복문이 시작되기 전에 변수를 반드시 선언하고 0으로
 		 * clear 하는 것이 좋다.
 		 */
+		
 
 	}
 

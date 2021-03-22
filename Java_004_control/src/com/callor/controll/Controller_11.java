@@ -6,11 +6,22 @@ public class Controller_11 {
 	public static void main(String[] args) {
 		
 		Random rnd = new Random();
+		// 0 ~ (100 - 1)
+		int num = rnd.nextInt(100);
+		
+		// 0 ~ 79
+		num = rnd.nextInt(80);
+		
+		// 0 ~ 9
+		num = rnd.nextInt(10);
+		
+		
 		
 		for(int i = 0 ; i < 5 ; i++ ) {
-			int num = rnd.nextInt(100) + 1;
+			// 0 ~ 99까지 만들고 거기에 1을 더하여 num에 저장하라
+			num = rnd.nextInt(100) + 1;
 			
-			//int rndNum = rnd.nextInt(100); 같은뜻 num = rndNum +1;
+			//int rndNum = rnd.nextInt(100)+1; 같은뜻 num = rndNum +1;
 			
 			
 			if(num % 3 ==0) {

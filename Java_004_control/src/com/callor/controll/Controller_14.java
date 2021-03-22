@@ -2,8 +2,6 @@ package com.callor.controll;
 
 import java.util.Random;
 
-import com.sun.java.swing.action.NextAction;
-
 public class Controller_14 {
 	
 	/*
@@ -34,6 +32,8 @@ public class Controller_14 {
 		System.out.printf("국어 : %d\n", intKor);
 		System.out.printf("영어 : %d\n", intEng);
 		System.out.printf("수학 : %d\n", intMath);
+		System.out.printf("총점 : %d\t  평균 : %3.2f\n", intSum, floatAvg);
+		System.out.println("===================================");
 		
 		
 		

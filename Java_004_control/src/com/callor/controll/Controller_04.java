@@ -22,7 +22,7 @@ public class Controller_04 {
 			if(num % 4 == 0) {
 				intSum4 += num;
 			}
-			if(num % 3 == 0 && num % 5 == 0) { // b
+			if(num % 3 == 0 && num % 5 == 0) { // boolean 값의 AND 값이므로 3과 5의 공통된 배수를 찾는 수식이다.
 				intSum5 += num;
 			}
 		}

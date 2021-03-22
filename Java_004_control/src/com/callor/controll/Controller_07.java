@@ -28,6 +28,7 @@ public class Controller_07 {
 		num = rnd.nextInt();
 		System.out.println(num);
 		
+		
 	}
 
 }
