@@ -12,7 +12,7 @@ import java.util.Random;
  * 
  * import java.util.Random;
  * 지금부터 Controller_06 클래스에서 java.util 패키지의
- * eclipse에서 도구를 사용하기위해 import 하고자 할때는 ctrl + shift + o을 눌러주면 된다.
+ * eclipse에서 도구를 사용하기위해 import 하고자 할때는 ctrl + shift + O을 눌러주면 된다.
  * Ctrl + shift + F / 코드의 모양을 정렬하는 것   
  */
 
@@ -37,12 +37,12 @@ public class Controller_06 {
 		
 		int num1 = 0;
 		Integer num2 = 0;
-		Integer = new Integer(0); //원래 표시방식이나 이제 이렇게 쓰지 않음
+		// Integer = new Integer(0); //원래 표시방식이나 이제 이렇게 쓰지 않음
 		
 		String str1 = "";
 		str1 = "홍길동";
 		String str2 = null;
-		str2 = "이몰룡";
+		str2 = "이몽룡";
 		String str3 = new String();
 		
 		

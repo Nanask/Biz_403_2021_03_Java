@@ -35,7 +35,7 @@ public class Controller_02 {
 		
 		//intNum에 담긴 값이 3의 배수이거나 (또는) 5의 배수이냐?
 		// :: or 관계연산자
-		bYes = intNum % 3 == || intNum % 5 = 0;
+		bYes = intNum % 3 == 0 || intNum % 5 == 0;
 		
 		/* 관계연산자
 		 * 2가지 이상의 비교연산( ==,<,>,<=,>=,!=)을 동시에 수행하기 위한 연산

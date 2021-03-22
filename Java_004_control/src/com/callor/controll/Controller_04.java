@@ -22,10 +22,11 @@ public class Controller_04 {
 			if(num % 4 == 0) {
 				intSum4 += num;
 			}
-			if(num % 3 == 0 && num % 5 == 0) {
+			if(num % 3 == 0 && num % 5 == 0) { // b
 				intSum5 += num;
 			}
 		}
+		
 	}
 
 }
