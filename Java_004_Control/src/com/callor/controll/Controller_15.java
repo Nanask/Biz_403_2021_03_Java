@@ -76,12 +76,6 @@ public class Controller_15 {
 	System.out.printf("총점 : %d, 학생 : %d\3.2" , sum , floatAvg);
 	
 	
-	/*
-	 * num 변수하고 intKor 이름하고 합하여 intKor1 ~ intKor5 처럼 만들수 있을거 같은데 불가능
-	 * intKornum 이라고 작성하면 java는 intKornum라는 변수를 찾으려고 시도한다.
-	 * intKornum =
-	 */
-	
 		
 	}
 
