@@ -27,11 +27,12 @@ public class App_04 {
 		for (int i = 0; i < 5; i++) {
 			pizzaBox = intMembers[i] / 6;
 			if (intMembers[i] % (pizzaBox * pizzaPcs) > 0) { pizzaBox++;
+			
 
 			}
 		}
 		System.out.println("인원수\t" + "피자 주문\t" + "전체조각수\t");
-		System.out.println();
+		System.out.println(intMembers[1] + pizzaBox + intTotal);
 		
 		
 
