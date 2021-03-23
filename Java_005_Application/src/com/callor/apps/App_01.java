@@ -5,21 +5,17 @@ import java.util.Random;
 public class App_01 {
 
 	public static void main(String[] args) {
-		
-	int intSum = 0;
 	
 	Random rnd = new Random();
-	
-	for(int i = 0 ; i<25 ; i++) {
 		
-		int intMembers = rnd.nextInt(25)+1;
+		int intMembers = 0;
+		float floatpizza = 0;
 		
-		if(intMembers % 6 == 0);
+		intMembers = rnd.nextInt(25)+26;
 		
-		intSum += intMembers;
+		floatpizza = (float)intMembers / 6 ;
 		
-	}
-	System.out.println("주문할 피자 판 수" + "intSum");
-
-}
+		
+		System.out.println("주문할 피자 판 수" + floatpizza );
+		}
 }
