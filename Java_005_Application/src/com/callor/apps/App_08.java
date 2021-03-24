@@ -1,5 +1,7 @@
 package com.callor.apps;
 
+import java.text.DecimalFormat;
+
 public class App_08 {
 	/*
 	 * 어떤 정수의 단위 자릿수가 얼마인가를 계산하는 코드
@@ -7,15 +9,17 @@ public class App_08 {
 	
 	public static void main(String[] args) {
 		
-		int intNum = 93929323;
-		int nCount = 0;
-		System.out.printf("정수 %d는", intNum);
-		while(intNum > 0) {
-			nCount++;
-			intNum /= 10;
-			
-		}
-		System.out.printf("%d 자릿수의 숫자", nCount);
+		int intNum = 3939239;
+		DecimalFormat strForm = new DecimalFormat("###,###");
+		
+		// format(숫자) 명령을 수행하면 숫자를 3자리 구분기호를 부착하여
+		// 문자열로 만들어준다.
+		String str = strForm.format(intNum);
+		System.out.println(str);
+		//위 방법은 변수에 담는 방법
+		
+		System.out.println(strForm.format(92348578));
+		//바로 출력하는 방법
 	}
 
 }

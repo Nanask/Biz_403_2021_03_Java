@@ -1,6 +1,6 @@
 package com.callor.apps;
 
-import com.callor.service.ScoreService;
+import com.callor.apps.service.ScoreService;
 
 public class ScoreEx_02 {
 	
@@ -14,6 +14,10 @@ public class ScoreEx_02 {
 		// ScoreService 클래스의 makeScore() 메서드를 호출하여 무언가 실행하라
 		sService.makeScore();
 		sService.printScore();
+		
+		ScoreService sSV1 = new ScoreService();
+		sSV1.makeScore();
+		sSV1.printScore();
 		
 		ScoreService sSV2 = new ScoreService();
 		sSV2.makeScore();

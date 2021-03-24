@@ -1,4 +1,4 @@
-package com.callor.service;
+package com.callor.apps.service;
 
 import java.util.Random;
 

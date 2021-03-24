@@ -2,6 +2,12 @@ package com.callor.apps;
 
 import java.util.Random;
 
+/*
+ * 정수형 배열 intScores를 10개 선언(생성)
+ * Random 클래스를 사용하여 50~100까지 정수를 만들어 IntScores 각 배열에 저장
+ * intScores 배열에 저장된 점수를 이용하여 전체총점, 평균을 계산한 후 출력
+ */
+
 public class App_02 {
 
 	public static void main(String[] args) {
@@ -30,7 +36,7 @@ public class App_02 {
 		}
 		for (int i = 0; i < 5; i++) {
 			// System.out.println("인원수 : " + intMembers[i]);
-			System.out.printf("%반 인원수 : %d\n", i + 1, intMembers[i]);
+			System.out.printf("%d반 인원수: %d\n" ,i+1,intMembers[i]);
 
 		}
 		
@@ -40,7 +46,7 @@ public class App_02 {
 			if(intMembers[i] % (pizzaBox * 6) > 0) {
 				pizzaBox++;
 			}
-			System.out.printf("%반 인원수 : %d, 피자주문 : %d\n" , (i+1) , intMembers[i], pizzaBox);
+			System.out.printf("%d반 인원수 : %d, 피자주문 : %d\n" , (i+1) , intMembers[i], pizzaBox);
 		}
 
 	}

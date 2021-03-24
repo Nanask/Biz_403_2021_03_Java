@@ -12,7 +12,7 @@ public class App_02 {
 		 * 코드를 변경해야하는 경우를 줄일 수 있다.
 		 */
 		int numsLength = 20;
-		int intNum = 0;
+		//int intNum = 0;
 		
 		// int, long, float, double 형 배열을 생성하면 자동으로 모든 배열에 0이 채워지고 clear
 		// String 형 배열은 ""으로 채워지고 clear 

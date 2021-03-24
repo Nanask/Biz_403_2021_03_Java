@@ -26,7 +26,9 @@ public class App_03 {
 		for(int i = 0 ; i < intNums.length ; i++) {
 			if(intNums[i]% 2 == 0) {
 				//몇번째 위치(요소, 첨자)에 저장되어 있나?
-				System.out.println(i);
+				// System.out.println(i);
+				System.out.printf("%d 번째 값 : %d\n",
+						i,intNums[i] );
 			}
 		
 		

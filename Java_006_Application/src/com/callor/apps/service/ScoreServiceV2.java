@@ -1,10 +1,17 @@
-package com.callor.service;
+package com.callor.apps.service;
 
 import java.util.Random;
 
 public class ScoreServiceV2 {
 	
+
+	// 클래스 영역에 선언된 변수
+	// 누군가 이 클래스를 사용하여 인스턴스를 생성하면 자동으로 예약이 되는 변수들
+	// 인스턴스(영역) 변수
+	// 클래스의 맴버변수
+	// 클래스 영역에 선언된 변수는 클래스에 포함된 method에서 변수를 사용(읽기,쓰기)할 수 있다.
 	Random rnd;
+	
 	int[] intKor;
 	int[] intEng;
 	int[] intMath;
@@ -32,12 +39,17 @@ public class ScoreServiceV2 {
 		}
 	}
 	
-	public void printSore() {
-		
-		System.out.println("===============================================");
-		System.out.println(:);
-		
-		
+	// 점수배열에 담긴 값들을 사용하여
+		// 성적리스트 출력하기
+		public void printScore() {
+			System.out.println("=========================");
+			System.out.println("국어\t영어\t수학");
+			System.out.println("-------------------------");
+			for(int i = 0 ; i < intKor.length ;i++) {
+				System.out.printf("%3d\t%3d\t%3d\n",
+						intKor[i],intEng[i],intMath[i]);
+			}
+			System.out.println("=========================");
 	}
 
 }

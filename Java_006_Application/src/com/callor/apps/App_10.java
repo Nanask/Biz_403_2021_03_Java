@@ -51,7 +51,7 @@ public class App_10 {
 				
 			}
 		}
-		System.out.println();
+		System.out.println(Arrays.toString(intNums));
 		
 	}
 
