@@ -10,8 +10,9 @@ public class App_03 {
 		PrimeServiceV1 psVA = new PrimeServiceV1();
 		PrimeServiceV1 psVB = new PrimeServiceV1();
 		
-		//V1로 갖고 왔지만 VA, VB는 서로 독립적
+		//V1로 갖고 왔지만 V1, VA, VB는 서로 독립적
 		//변수가 새로 만들어진것과 비슷한 느낌
+		//객체지향 PS라는 객체들이 따로 행동하기 때문
 		
 		psV1.makeNums();
 		psVA.makeNums();

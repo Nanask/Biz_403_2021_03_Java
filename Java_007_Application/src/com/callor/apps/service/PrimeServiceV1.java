@@ -44,7 +44,7 @@ public class PrimeServiceV1 {
 	// 여러개(2개이상)의 method에서 공통으로 사용할 변수들을 클래스 영역에 설정한다.
 	// 변수를 사용한다 == 변수를 참조한다 : 저장, 읽기
 	// 여기는 선언만 하는 곳! 
-	int[] intNums; // 원래는 int[] intNums = new int[] 
+	int[] intNums; // 원래는 int[] intNums = new int[]이나 선언만 하는 곳이므로 초기화 하지 않는다. 
 	// intNums 배열을 설정(초기화, 개수지정)을 하여 사용할 준비
 	
 	// 생성자(Contructor) method
