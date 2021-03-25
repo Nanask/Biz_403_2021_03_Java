@@ -4,6 +4,9 @@ import java.util.Random;
 
 public class ScoreServiceV2 extends ScoreServiceV1 {
 
+	//for(int i = 0)
+	//int members = 5
+	
 	public ScoreServiceV2(int members) {
 		intKor = new int[ members ];
 		intKor = new int[intKor.length];
