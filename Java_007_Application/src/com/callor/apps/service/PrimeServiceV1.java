@@ -76,7 +76,7 @@ public class PrimeServiceV1 {
 	public void printPrime() {
 	//사용할 변수 설계 과정 	
 		
-		for(int arr = 0 ; arr < intNums.lenght ; arr ++) {
+		for(int arr = 0 ; arr < intNums.length ; arr ++) {
 			
 			int numP = intNums[arr];
 			int num = 0 ;
