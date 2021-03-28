@@ -28,7 +28,7 @@ public class TimeServiceV1 {
 				// 변수에 저장할 수 있다.
 				String dLines = LinesService.dLines(50);
 				String sLines = LinesService.sLines(50);
-				System.out.println( LinesService.dLines(50); );
+				System.out.println( LinesService.dLines(50) );
 				System.out.printf("d% * %d = d%\n" , nums[i] , j , nums[i] * j  );
 				System.out.println(LinesService.sLines(50));
 			}
