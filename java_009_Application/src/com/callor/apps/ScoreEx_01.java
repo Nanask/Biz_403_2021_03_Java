@@ -1,5 +1,7 @@
 package com.callor.apps;
 
+//VO
+
 import com.callor.apps.model.ScoreVO;
 
 public class ScoreEx_01 {

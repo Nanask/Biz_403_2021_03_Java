@@ -1,10 +1,13 @@
 package com.callor.apps;
 
+//VO
+
 import com.callor.apps.Service.ScoreServiceV5;
 
 public class App_05 {
 	
 	public static void main(String[] args) {
+		
 		
 		//ssV5 객체를 선언하고 생성자를 호출하여 인스턴스 화 하는 코드
 		//객체는 인스턴스가 되어야 포함된 코드(Method)를 호출할 수 있다.
@@ -30,6 +33,7 @@ public class App_05 {
 		//static method(static 변수)들은 꼭 필요한 경우에만 선언하는 것이 좋다.
 		
 		System.out.println(ScoreServiceV5.dLine());
+		
 	}
 
 }
