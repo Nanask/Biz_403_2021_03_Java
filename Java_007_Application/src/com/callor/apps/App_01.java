@@ -38,7 +38,8 @@ public class App_01 {
 		
 		for(int i = 2 ; i < intNums.length ; i++) {
 		int	icount = 0;
-		if(intNums)
+		
+		
 		}
 
 	}

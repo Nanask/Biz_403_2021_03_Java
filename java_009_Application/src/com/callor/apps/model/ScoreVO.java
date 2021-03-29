@@ -1,5 +1,7 @@
 package com.callor.apps.model;
 
+//클래스
+
 /*
  *  ScoreV0 클래스 선언
  *  ScoreV0 클래스에는 5개의 변수가 포함되어 있고 5개의 변수는 반드시 ScoreV0 클래스를 객체로 선언한 후 사용할 수 있다.

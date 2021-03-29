@@ -1,5 +1,7 @@
 package com.callor.apps;
 
+//클래스
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;

@@ -2,6 +2,8 @@ package com.callor.apps;
 
 import com.callor.apps.model.ScoreVO;
 
+//클래스
+
 public class ScoreEx_03 {
 	
 	public static void main(String[] args) {

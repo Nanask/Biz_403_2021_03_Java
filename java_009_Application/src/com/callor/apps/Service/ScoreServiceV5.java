@@ -1,5 +1,7 @@
 package com.callor.apps.Service;
 
+//VO
+
 import java.util.Scanner;
 
 public class ScoreServiceV5 {

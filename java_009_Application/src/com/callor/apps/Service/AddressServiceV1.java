@@ -1,5 +1,7 @@
 package com.callor.apps.Service;
 
+//VO
+
 import com.callor.apps.model.AddressVO;
 
 public class AddressServiceV1 {

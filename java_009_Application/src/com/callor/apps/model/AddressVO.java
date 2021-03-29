@@ -1,5 +1,7 @@
 package com.callor.apps.model;
 
+//VO
+
 /*
  * 주소록 관리를 위한 프로젝트를 수행하기 위해 주소록 데이터를 저장할 클래스를 설계하기
  * 
