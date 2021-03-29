@@ -41,6 +41,8 @@ public class ScoreEx_01 {
 		
 		System.out.println("이몽룡 총점 : " + 이몽룡.getTotal());
 		System.out.println("이몽룡 평균 : " + 이몽룡.getAvg());
+		
+		
 
 	}
 }

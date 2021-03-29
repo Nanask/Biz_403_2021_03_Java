@@ -37,6 +37,8 @@ public class ScoreEx_05 {
 		
 		
 		
+		
+		
 	}
 
 }

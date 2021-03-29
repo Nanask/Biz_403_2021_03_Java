@@ -98,7 +98,11 @@ public class ScoreEx_04 {
 		System.out.println(strNation.length());
 		
 		//문자열을 배열로 나누어서 나타냄
-		System.out.println(Arrays.toString(null));
+		System.out.println(
+				Arrays.toString(
+						"Republic of Korea".split(" ")
+				)
+		);
 		//method를 호출하여 return한 결과를 또 다른 method에 매개변수로 전달하는 코드의 예
 		
 		System.out.println(

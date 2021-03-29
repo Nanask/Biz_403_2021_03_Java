@@ -29,7 +29,9 @@ public class ScoreEx_03 {
 		
 		System.out.println(홍길동.getClass());
 		//객체가 어떤 클래스로부터 만들어진 것인지 알게 해주는 것, 하지만 코드가 어떻게 작동되는지는 나오지 않지만 알필요는 없음
-				
+			
+		
+		
 	}
 
 }
