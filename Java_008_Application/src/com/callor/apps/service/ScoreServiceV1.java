@@ -29,17 +29,19 @@ public class ScoreServiceV1 {
 			num = i + 1;
 			System.out.println(LinesService.dLines(length));
 			System.out.printf("%d번의 국어,영어,수학 점수를 기재하세요\n" , num);
+			System.out.println(LinesService.dLines(length));
 			System.out.print("국어점수: ");
 			intKor[i] = scan.nextInt();
 			System.out.print("영어점수: ");
 			intEng[i] = scan.nextInt();
 			System.out.print("수학점수: ");
 			intMath[i] = scan.nextInt();
+			System.out.println(LinesService.dLines(length));
 		}
 		scan.close();
 	}
 	public void makeTotal() {
-		//Scanner scan = new Scanner(System.in);
+		
 		for(int i = 0 ; i < intKor.length ; i++) {
 			num = i + 1;
 			intTotal[i] = intKor[i];
