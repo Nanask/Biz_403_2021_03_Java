@@ -12,20 +12,18 @@ public class ScoreServiceV4 {
 	Scanner scan;
 	public ScoreServiceV4(int members) {
 		scan = new Scanner(System.in);
-		for(int i = 0 ; i < intKor.length ; i++) {
-		//선언하는곳과 생성자가 분리되어 있다면 new String[]으로 표기해야 한다.
-		System.out.printf("%d번 학생의 성적입력\n", i+1);
-		intKor[i] = this.inputScore(subject[0]);
-		intEng[i] = this.inputScore(subject[0]);
-		intMath[i] = this.inputScore(subject[0]);
-	}
+		subject = new String[] {"국어","영어","수학"};
+		intKor = new int[members];
+		intEng = new int[members];
 	}
 	public void makeScores() {
 		
 		for(int i = 0 ; i < intKor.length ; i++) {
 			//subject의 배열만큼 과목을 반복문을 돌린다.
-			
-			Integer intKor = this.inputScore(subject[i]) ;
+			System.out.printf("%d번 학생의 성적입력\n", i+1);
+			intKor[i] = this.inputScore( subject[0] );
+			intEng[i] = this.inputScore( subject[1] );
+			intMath[i] = this.inputScore( subject[2] );
 		}
 		
 	}

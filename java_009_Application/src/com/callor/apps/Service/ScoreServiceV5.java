@@ -22,13 +22,10 @@ public class ScoreServiceV5 {
 	Scanner scan;
 	public ScoreServiceV5(int members) {
 		scan = new Scanner(System.in);
-		for(int i = 0 ; i < intKor.length ; i++) {
-		//선언하는곳과 생성자가 분리되어 있다면 new String[]으로 표기해야 한다.
-		System.out.printf("%d번 학생의 성적입력\n", i+1);
-		intKor[i] = this.inputScore(subject[0]);
-		intEng[i] = this.inputScore(subject[0]);
-		intMath[i] = this.inputScore(subject[0]);
-	}
+		subject = new String[] {"국어","영어","수학"};
+		intKor = new int[members];
+		intEng = new int[members];
+		intMath = new int[members];
 	}
 	/*
 	 * 현재는 학생 수 만큼 모든 과목의 점수 입력을 끝내야만 다른 업무로 진행이 된다.
@@ -38,10 +35,10 @@ public class ScoreServiceV5 {
 	public void makeScores() {
 		
 		//과목의 개수만큼 점수를 담을 임시 배열 선언
-		Integer[] score = new Integer[subject.length];
-		
+		Integer[] scores = new Integer[subject.length];
 		for(int i = 0 ; i < intKor.length ; i++) {
 			System.out.printf("%d 번의 학생의 성적입력\n", i+1);
+			
 			//subject의 배열만큼 과목을 반복문을 돌린다.
 			for(int j = 0 ; j < subject.length ; j++) {
 				scores[j] = this.inputScore(subject[j]);
@@ -51,7 +48,7 @@ public class ScoreServiceV5 {
 				 * 이때 break를 사용하면 for() 겹쳐있기 때문에 원하는대로 코드가 작동되지 않는다.
 				 * 이럴경우 return type이 void이지만 return명령을 실행하여 method코드
 				 */
-				if(scores[i] == - 1) {
+				if(scores[j] == - 1) {
 					return;
 				}
 			}
@@ -75,12 +72,15 @@ public class ScoreServiceV5 {
 				return -1;
 			}else if(score < 0 || score > 100) {
 				System.out.println(sub + "점수는 0 ~ 100까지 ");
+				// continue;
+				
+				// continue 명령을 사용하는 대신
+				// else를 사용하여 코드를 작성
+				} else {
+					break;	
+				}
 			}
-			break;
-			
-		}
-		
-		return score;
+			return score ;
 		//Unreachable code 필요없다는 코드, while문으로 break를 생성하지 않아 무한 반복되기 때문에 사용할 일이 없다고 표시된 것
 		//return 하고자 하는 것으로 0에서 수정을 해야한다.
 	}
