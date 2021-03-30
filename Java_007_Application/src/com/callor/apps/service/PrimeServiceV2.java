@@ -24,6 +24,8 @@ public class PrimeServiceV2 {
 	public void printPrime() {
 		
 		for(int num : intNum) {
+		//	int num에 intNum[0]부터 차례대로 num에 넣겠다는 말 
+			//배열값인 []값을 표시하지 않아도 배열이 순서대로 들어간다는 의미
 			
 			int index = 0;
 			for(index = 2 ; index < num ; index++) {

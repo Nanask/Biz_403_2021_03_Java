@@ -1,5 +1,9 @@
 package com.callor.classes;
 
+//배열 나중에 정하기 , Class
+
+//50~ 100까지의 랜덤값 중 난수 하나를 구하여 약수리스트를 나타내고 그 약수들을 배열로 묶어라
+
 import java.util.Arrays;
 import java.util.Random;
 
@@ -37,7 +41,10 @@ public class Class_01 {
 				divisor[index++] = i;
 			}
 		}
+		//정수 배열을 문자열로 나타내준것 
+		//숫자를 문자로 바꿔주는 것이 아닌 배열을 문자형식으로 나열 시켜주는것
 		System.out.println(Arrays.toString(divisor));
+		System.out.println(Arrays.toString(divisor)+"TEST");
 	}
 
 }

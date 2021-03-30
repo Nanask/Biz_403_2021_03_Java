@@ -1,5 +1,9 @@
 package com.callor.classes;
 
+//ValueService
+//Score
+
+
 import com.callor.classes.service.ValueService;
 
 public class Value_05 {
@@ -20,8 +24,8 @@ public class Value_05 {
 		
 		vs.nums();
 			
-		Integer result1 = vs.retNum;
-		Integer result2 = vs.retNum;
+		Integer result1 = vs.getRetNum();
+		Integer result2 = vs.numsRet();
 		
 	}
 

@@ -1,6 +1,9 @@
 package com.callor.classes;
 
-//List
+//List , Class
+
+//ArrayList는 add값을 method로 지정하여 사용하고 범위를 나타내는 단위인 length대신 size를 사용한다.
+//또한 특정 값을 불러낼때에는 get을 사용한다.
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,7 +15,7 @@ public class Class_03 {
 		
 		//<Integer> 필요한 정수형 데이터를 저장하겠다.
 		// Generic 사용 : <객체>
-		// List 형 객체에 저장할 데이터의 type을 제한함으로써 코ㅡ의 실행에 효율을 높이고,
+		// List 형 객체에 저장할 데이터의 type을 제한함으로써 코드의 실행에 효율을 높이고,
 		// 메모리 사용의 효율을 높이기 위함이다.
 		List<Integer> divisor = new ArrayList<Integer>();
 		Random rnd = new Random();

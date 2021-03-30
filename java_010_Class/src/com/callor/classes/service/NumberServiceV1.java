@@ -1,5 +1,7 @@
 package com.callor.classes.service;
 
+//Score
+
 /*
  * 두 정수의 덧셈, 두 실수의 덧셈
  * 두개의 문자열 연결 수행하는 코드를 클래스를 만들고 분리하여 작성하고 있다.
@@ -43,3 +45,4 @@ public class NumberServiceV1 {
 	}
 
 }
+// 여기서 나온 add는 method를 선언한 것일뿐, arryslist에서 사용한 add값과는 다르다.

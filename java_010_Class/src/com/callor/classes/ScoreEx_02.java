@@ -1,5 +1,8 @@
 package com.callor.classes;
 
+//ScoreServiceV2
+//Score
+
 import com.callor.classes.service.ScoreServiceV2;
 
 public class ScoreEx_02 {

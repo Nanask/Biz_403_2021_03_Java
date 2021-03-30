@@ -1,6 +1,6 @@
 package com.callor.classes;
 
-//Line, Score
+//Line, Class
 
 public class String_01 {
 	
@@ -10,6 +10,7 @@ public class String_01 {
 		
 		// %50d : 50개짜리 칸을 만들고 오른쪽 끝부터 정수값을 채워라 //오른쪽정렬
 		String dLine = String.format("%50d", 0);
+		//String.format은 숫자 또는 문자를 자릿수를 맞추는 값으로 생각하자
 		System.out.println(dLine);
 		
 		// %050d : 50개짜리 칸을 만들고 오른쪽 끝부터 정수값을 채워라.

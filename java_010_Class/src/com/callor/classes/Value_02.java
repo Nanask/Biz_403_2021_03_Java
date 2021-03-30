@@ -1,5 +1,7 @@
 package com.callor.classes;
 
+//Score
+
 import java.util.Scanner;
 
 /*
@@ -32,8 +34,8 @@ public class Value_02 {
 		// 키보드에서 문자열을 입력하고 Enter를 누르면 값이 str 변수에 저장되고 다음 코드가 실행되나
 		// nextLine라는 코드로 인해 Enter를 눌러도 입력을 종료하고 다음 코드가 실행된다.
 		System.out.print("숫자1 >> ");
-		String str = scan.nextLine();
-		if(str1 == "") { // "" <= 문자열변수에 null 값과 유사한 성격을 갖는 값
+		String str1 = scan.nextLine();
+		if(str1 == "") { // "" <= 문자열변수에서 null 값과 유사한 성격을 갖는 값
 			System.out.println("아무것도 없는 값 입력");
 		}
 		
@@ -41,6 +43,7 @@ public class Value_02 {
 		String str2 = scan.nextLine();
 		
 		Integer num1 = Integer.valueOf(str1);
+		//valueOf() ()안에 있는 것을 변환시켜주는것 , 여기서는 문자열을 정수형으로 변환시켰다.
 		Integer num2 = Integer.valueOf(str2);
 		System.out.println(num1 + num2);
 		

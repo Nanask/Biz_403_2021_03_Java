@@ -1,5 +1,7 @@
 package com.callor.classes;
 
+//setter과 getter
+
 import com.callor.model.AddressVO;
 
 public class AddrEx_01 {

@@ -2,6 +2,7 @@ package com.callor.classes.service;
 
 //ScoreService
 
+//Score
 import java.util.ArrayList;
 
 import java.util.List;
@@ -38,7 +39,6 @@ public class ScoreServiceV1 {
 		scan = new Scanner(System.in);
 		scoreList = new ArrayList<ScoreVO>();
 	}
-	//void에서 Integer로 변경했
 	public Integer inputScore() {
 		
 		// System.out.println("학번을 001 형식으로 입력하세요");
@@ -50,7 +50,7 @@ public class ScoreServiceV1 {
 		 */
 		int nSize = scoreList.size();
 		String strNum = String.format("%03d", nSize + 1);
-		
+		//문자의 자리 정렬 
 		int intKor = 0;
 		while(true){
 			System.out.println(strNum + " 번의 국어점수를 입력하세요(중단 : -1)");
@@ -83,7 +83,7 @@ public class ScoreServiceV1 {
 		scoreList.add(scoreVO);
 		
 		return 0;
-	} // inputScore()
+	} inputScore()
 	
 	public void printScore() {
 		

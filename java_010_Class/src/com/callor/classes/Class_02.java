@@ -1,6 +1,6 @@
 package com.callor.classes;
 
-//List
+//List, Class
 
 import java.util.List;
 import java.util.ArrayList;

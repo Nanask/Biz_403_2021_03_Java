@@ -1,6 +1,6 @@
 package com.callor.classes;
 
-//배열 나중에 정하기
+//배열 , Score
 
 import java.util.Arrays;
 

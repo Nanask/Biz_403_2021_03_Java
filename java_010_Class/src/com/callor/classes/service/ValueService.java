@@ -1,5 +1,8 @@
 package com.callor.classes.service;
 
+//Score
+//Value_05 에 쓰임 
+
 public class ValueService {
 	
 	/*
@@ -11,7 +14,12 @@ public class ValueService {
 	 * == 정보의 은닉
 	 */
 	public int retNum;
-	
+	public int getRetNum() {
+		return retNum;
+		
+		//값을 선언했고 호출한 곳에 return할때는 retNum으로 할것이라고 기재된 것
+		//자세한 설명은 밑부분을 참조하자
+	}
 	
 	public void nums() {
 		// nums method는 어떤 연산을 수행하고 그 결과값인 100을 호출한 곳에 return 하고 싶다

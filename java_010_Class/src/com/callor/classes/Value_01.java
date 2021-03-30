@@ -1,5 +1,5 @@
 package com.callor.classes;
-
+//Score
 import java.util.Random;
 
 public class Value_01 {
@@ -41,7 +41,7 @@ public class Value_01 {
 		
 		num1 = 0;
 		
-		//위에 method가 밑으로 호출되서 실행되어 나온 값이 다시 리턴되어 1번의 num1의 값에 저장된다. 
+		//위에 1번 method가 2번으로 호출되서 실행되어 나온 값이 3번에서 다시 리턴되어 1번의 num1의 값에 저장된다. 
 
 	}
 	//0 ~ 99까지 중의 난수 1개를 생성하여 return 하는 method
