@@ -24,5 +24,15 @@ public class Lines {
 		
 		return String.format("%0" + nCount + "d", 0).replace("0", "=");
 	}
+	
+	public static String dLine11(int nCount) {
+		
+		//print("=" * 10) : = 문자열을 10개 만들어서 출력하라
+		// java 11이상에서 연속된 문자열을 만드는 method
+		String dLine = "=".repeat(nCount);
+		return dLine;
+				
+		
+	}
 
 }
