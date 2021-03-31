@@ -8,7 +8,7 @@ public class StudentVO {
 	
 	private String addr;
 	private String tel;
-	//shift + ctrl + s 를 누르면 getter, setter를 나타내준다.
+	//shift + alt + s 를 누르면 getter, setter를 나타내준다.
 	public String getNum() {
 		return num;
 	}

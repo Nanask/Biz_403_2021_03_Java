@@ -83,7 +83,7 @@ public class ScoreServiceV1 {
 		scoreList.add(scoreVO);
 		
 		return 0;
-	} inputScore()
+	} 
 	
 	public void printScore() {
 		
