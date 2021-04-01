@@ -4,21 +4,19 @@ package com.callor.classes.service;
 public class MethodService {
 
 	// 변수는 같은 {} 구역내에서는 같은 이름으로 절대 중복 선언할 수 없다.
-	// int num
-	// int num
+	int num1;
+	int num2;
 
-	public void method(int num) {
-
-		System.out.println("여기는 1번 method");
-
-	}
 	// method는 같은 클래스의 {} 구역내에서는 같은 이름으로 원칙적으로 중복 선언할 수 없다
 	// 예외상황에서는 가능
 	// 1.method에 매개변수가 있고 없고의 차이
 	// 2.매개변수의 개수의 차이
 	// 3.매개변수의 type의 차이
-	public void method() {
-		int num;
+	public void method(int num) {
+		
+		int num1;
+		System.out.println("여기는 1번 method");
+		
 	}
 	
 	public void method(int num, int num1) {

@@ -6,10 +6,8 @@ public class PrimeEX_06 {
 	
 	public static void main(String[] args) {
 		
-		PrimeServiceV6 
+		PrimeServiceV6 psV6 = new PrimeServiceV6();
+		psV6.primeNum();
+		psV6.printPrime();
 	}
-	
-	
-	
-
 }

@@ -1,5 +1,7 @@
 package com.callor.reload.service;
 
+//소수가 아닌경우 notPrime이라는 변수를 만들어 구하기
+
 import java.util.Random;
 
 public class PrimeServiceV1 {
@@ -32,7 +34,7 @@ public class PrimeServiceV1 {
 		// num 가 6라고 가정했을때 
 		// 6 % 2 , 6 % 3 , 6 % 4 , 6 % 5 까지 연산을 수행한다.
 		// 이럴경우 소수인경우와 소수가 아닌경우 2가지를 모두 출력한다.
-		boolean notPrinme = false;
+		boolean notPrime = false;
 		for(int i = 2 ; i < num ; i++) {
 		
 //			if( num % i == 0) {
@@ -45,11 +47,10 @@ public class PrimeServiceV1 {
 		// = > 소수가 아니라는 이야기, 연산하는 동안 나머지가 0인 값을 한번이라도 만나면 break를 만나서
 		//아니면 모두 완료되었나?
 		// = > 소수이다.
-			if(notPrime == ture) {
+			if(notPrime == true) {
 				System.out.println("소수가 아니다.");
 			}else {
 				System.out.println("소수이다.");
 			}
 		}
 	}
-}

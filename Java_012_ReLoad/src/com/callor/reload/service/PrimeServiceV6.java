@@ -46,16 +46,19 @@ public class PrimeServiceV6 {
 	}
 	public void printPrime() {
 		int nSize = primeList.size();
-		System.out.println("=",repeat(20));
-		System.out.println("소수개수");
+		System.out.println("=".repeat(50));
+		System.out.println("소수개수 : " + nSize);
+		System.out.println("-".repeat(50));
 		
 		for(int i = 0 ; i < nSize ; i++) {
 			System.out.print(primeList.get(i) + "\t");
-			if( (i + 1 ) % 5 == 0 ) {
+			if( (i + 1) % 5 == 0) {
 				System.out.println();
-				
 			}
 		}
+		System.out.println();
+		System.out.println("=".repeat(50));
 	}
 
 }
+

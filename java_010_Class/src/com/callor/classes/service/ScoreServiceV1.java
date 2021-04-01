@@ -63,13 +63,19 @@ public class ScoreServiceV1 {
 				System.out.println("국어점수는 0 ~ 100까지!");
 				continue;
 			}
-			
-			
 		}
-		
-		System.out.println(strNum + " 번의 영어점수를 입력하세요");
-		System.out.print(">> ");
-		int intEng = scan.nextInt();
+		int intEng = 0;
+		while(true) {
+			System.out.println(strNum + " 번의 영어점수를 입력하세요");
+			System.out.print(">> ");
+			intEng = scan.nextInt();
+			if(intEng == -1) {
+				
+				return -1;
+			}else if (intEng < 0 || intEng > 100) {
+				System.out.println("영어점수는 0~ 100까지!");
+			}
+		}
 		
 		System.out.println(strNum + " 번의 수학점수를 입력하세요");
 		System.out.print(">> ");
