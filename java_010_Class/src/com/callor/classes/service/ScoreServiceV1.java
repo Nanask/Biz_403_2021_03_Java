@@ -64,31 +64,31 @@ public class ScoreServiceV1 {
 				continue;
 			}
 		}
-		int intEng = 0;
-		while(true) {
-			System.out.println(strNum + " 번의 영어점수를 입력하세요");
-			System.out.print(">> ");
-			intEng = scan.nextInt();
-			if(intEng == -1) {
-				
-				return -1;
-			}else if (intEng < 0 || intEng > 100) {
-				System.out.println("영어점수는 0~ 100까지!");
-			}
-		}
-		
-		System.out.println(strNum + " 번의 수학점수를 입력하세요");
-		System.out.print(">> ");
-		int intMath = scan.nextInt();
-		
-		ScoreVO scoreVO = new ScoreVO();
-		scoreVO.num = strNum;
-		scoreVO.kor = intKor;
-		scoreVO.eng = intEng;
-		scoreVO.math = intMath;
-		scoreList.add(scoreVO);
-		
-		return 0;
+//		int intEng = 0;
+//		while(true) {
+//			System.out.println(strNum + " 번의 영어점수를 입력하세요");
+//			System.out.print(">> ");
+//			intEng = scan.nextInt();
+//			if(intEng == -1) {
+//				
+//				return -1;
+//			}else if (intEng < 0 || intEng > 100) {
+//				System.out.println("영어점수는 0~ 100까지!");
+//			}
+//		}
+//		
+//		System.out.println(strNum + " 번의 수학점수를 입력하세요");
+//		System.out.print(">> ");
+//		int intMath = scan.nextInt();
+//		
+//		ScoreVO scoreVO = new ScoreVO();
+//		scoreVO.num = strNum;
+//		scoreVO.kor = intKor;
+//		scoreVO.eng = intEng;
+//		scoreVO.math = intMath;
+//		scoreList.add(scoreVO);
+//		
+//		return 0;
 	} 
 	
 	public void printScore() {
