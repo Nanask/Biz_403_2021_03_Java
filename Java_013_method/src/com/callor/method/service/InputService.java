@@ -21,7 +21,7 @@ public class InputService {
 			System.out.println("-".repeat(60));
 			String strInput = scan.nextLine();
 			if (strInput.equals("QUIT")) {
-				return null;
+				return null; // QUIT를 null로 보내고 끝내라
 			} else {
 				Integer intValue = null;
 				try {
@@ -32,7 +32,7 @@ public class InputService {
 					System.out.println("정수 또는 QUIT만 입력하세요");
 				}
 
-				return intValue;
+				return intValue; // 결과값을 반환하고 끝내라.
 			}
 
 		}

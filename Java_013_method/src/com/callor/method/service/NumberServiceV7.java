@@ -17,8 +17,7 @@ public class NumberServiceV7 {
 		Integer score = 0;
 
 		for (int i = 0; i < sub.length; i++) {
-			is.inputValue(sub[i]); //inputService에 선언되어있는 inputValue를 갖고옴
-			score = is.inputValue(sub[i]);
+			score = is.inputValue(sub[i]); //inputService에 선언되어있는 inputValue를 갖고옴
 
 			while (true) { //inputValue값에서 못한 다른 유효성 검사를 추가함
 				if (score == null) { //과목의 값이 null일때 return
