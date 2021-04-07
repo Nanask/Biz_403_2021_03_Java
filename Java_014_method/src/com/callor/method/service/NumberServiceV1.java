@@ -9,6 +9,10 @@ package com.callor.method.service;
  * 한개의 클래스에서 method를 중복선언 할수 있다.
  * 				단!! 매개변수가 달라야 하는 조건이 있다.
  * 매개변수의 type, 개수, 순서가 다르면 같은 이름의 method를 중복선언 할수있다.
+ * 
+ * public Integer inputValue(String title);
+ * public Integer inputValue(String title, int start);
+ * public Integer inputValue(String title, int start, int end);
  */
 
 public class NumberServiceV1 {
