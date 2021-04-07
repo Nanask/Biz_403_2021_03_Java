@@ -27,14 +27,14 @@ public class ScoreServiceV6 {
 	protected String[] subject;
 	ScoreVO VO;
 	InputServiceV2 isV2;
-	List<ScoreVO> ScoreList;
+	List<ScoreVO> scoreList;
 
 	public ScoreServiceV6() {
 
 		subject = new String[] { "국어", "영어", "수학" };
 		VO = new ScoreVO();
 		isV2 = new InputServiceV2();
-		ScoreList = new ArrayList<ScoreVO>();
+		scoreList = new ArrayList<ScoreVO>();
 
 	}
 
@@ -44,14 +44,39 @@ public class ScoreServiceV6 {
 		for (int sb = 0; sb < subject.length; sb++) {
 			scores[sb] = isV2.inputValue(subject[sb], 0, 100);
 
-			ScoreVO VO = new ScoreVO();
-			VO.setKor(scores[0]);
-			korList.add(VO);
-
-			VO.setEng(scores[1]);
-			VO.setMath(scores[2]);
+		ScoreVO VO = new ScoreVO();
+		VO.setKor(scores[0]);
+		VO.setEng(scores[1]);
+		VO.setMath(scores[2]);
+		scoreList.add(VO);
 
 		}
+	}
+	public void inputScore2() {
+		
+		for(int i = 0 ; i < 5 ; i++) {
+			
+			Integer kor = isV2.inputValue("국어", 0, 100);
+			if(kor == null) {
+				return;
+			}
+			Integer eng = isV2.inputValue("영어", 0, 100);
+			if(eng == null) {
+				return;
+			}
+			Integer math = isV2.inputValue("수학", 0, 100);
+			if(math == null) {
+				return;
+			}
+			ScoreVO VO = new ScoreVO();
+			VO.setKor(kor);
+			VO.setEng(eng);
+			VO.setMath(math);
+			scoreList.add(VO);
+		} // for end
+		
+		
+
 	}
 
 	public void printScore() {
@@ -59,7 +84,5 @@ public class ScoreServiceV6 {
 		System.out.println();
 	}
 
-	public void inputScore2() {
-
-	}
+	
 }

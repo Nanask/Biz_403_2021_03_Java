@@ -43,7 +43,7 @@ public class ScoreServiceV4 {
 				 * return을 실행하면 현재 method(inputScore())를 무조건 종료한다. 
 				 * inputScore() method를 호출했던 코드로 되돌아간다.
 				 */
-				return;
+				return null;
 			}
 			// return 받은 점수를 scores 배열의 i번째 위치에 저장하라
 			scores[i] = score;
