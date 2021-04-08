@@ -8,7 +8,7 @@ public class ScoreEx_03 {
 		
 		ScoreServiceImplV1 ssV1 = new ScoreServiceImplV1();
 		
-		ssV1.selecNenu();
+		ssV1.selecMenu();
 		
 		
 	}
