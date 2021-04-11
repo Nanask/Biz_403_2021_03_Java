@@ -1,11 +1,11 @@
 package com.callor.App.service;
 
 import com.callor.App.model.ScoreVO;
-import com.callor.App.service.Impl.ScoreServiceImplV2;
+import com.callor.App.service.Impl.ScoreServiceImplV1;
 
-public class ScoreServiceV3a extends ScoreServiceImplV2 {
+public class ScoreServiceV3a extends ScoreServiceImplV1 {
 
-	private String inputNum() {
+	public String inputNum() {
 
 		while (true) {
 			Integer intNum = inService.inputValue("학번", 1);

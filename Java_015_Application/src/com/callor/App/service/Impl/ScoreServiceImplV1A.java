@@ -7,7 +7,7 @@ import java.util.Scanner;
 import com.Nanask.standard.InputService;
 import com.Nanask.standard.impl.InputServiceImplV1;
 import com.callor.App.model.ScoreVO;
-import com.callor.App.service.ScoreService;
+import com.callor.App.service.ScoreServiceA;
 
 /*
  * 1. 메뉴를 보여주고
@@ -28,7 +28,7 @@ import com.callor.App.service.ScoreService;
  * 			이 return 학생이름을 inputScore() 에서
  * 			변수에 담아 처리를 할수 있다
  */
-public class ScoreServiceImplV2 implements ScoreService{
+public class ScoreServiceImplV1A implements ScoreServiceA{
 
 	// 저장소
 	protected List<ScoreVO> scoreList;
@@ -39,7 +39,7 @@ public class ScoreServiceImplV2 implements ScoreService{
 	// 학생의 이름을 입력받을때 사용할 객체
 	protected Scanner scan;
 	
-	public ScoreServiceImplV2() {
+	public ScoreServiceImplV1A() {
 		
 		inService = new InputServiceImplV1();
 		scan = new Scanner(System.in);
@@ -212,10 +212,5 @@ public class ScoreServiceImplV2 implements ScoreService{
 		System.out.println("=".repeat(80));
 	}
 
-	@Override
-	public void selecMenu() {
-		// TODO Auto-generated method stub
-		
-	}
 
 }

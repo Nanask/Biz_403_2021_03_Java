@@ -1,16 +1,14 @@
 package com.callor.App.service.Impl;
 
-import com.callor.App.service.ScoreServiceV2;
-
 /*
  * V2는 V1을 상속받고
  * v3는 v2를 상속받고
  * v3는 v1을 상속받고 v2의 재 정의된 inputNum()을 상속받는 효과가 된다.
  * 즉 v3는 v1에 구현된 객체,변수 method를 모두 그대로 물려받으면서 v2에서 새롭게 작성한 inputNum()을 상속받아서 사용하고 있다.
  */
-public class ScoreServiceImplv3 extends ScoreServiceV2{
+public class ScoreServiceImplV3A extends ScoreServiceImplV2A{
 
-	@Override
+	// override 값이 오류발생 ...
 	public void selecMenu() {
 		
 		while(true) {

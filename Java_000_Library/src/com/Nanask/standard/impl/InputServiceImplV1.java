@@ -20,7 +20,7 @@ public class InputServiceImplV1 implements InputService {
 	public Integer inputValue(String title) {
 		// TODO prompt 타이틀을 보여주고 정수 입력받기
 		while (true) {
-			System.out.println(title + "값을 입력하세요(QUIT : 입력중단");
+			System.out.println(title + "값을 입력하세요(QUIT : 입력중단)");
 			System.out.print(" >> ");
 			String strIn = scan.nextLine();
 			if (strIn.equals("QUIT")) {

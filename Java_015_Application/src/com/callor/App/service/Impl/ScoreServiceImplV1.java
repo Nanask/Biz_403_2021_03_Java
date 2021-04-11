@@ -9,29 +9,14 @@ import com.Nanask.standard.impl.InputServiceImplV1;
 import com.callor.App.model.ScoreVO;
 import com.callor.App.service.ScoreService;
 
-/*
- * 메뉴를 보여주고 성적입력 : 학생수의 제한이 없다.
- * 		가.학번
- * 		나.학생이름 
- * 		다.과목별 성적
- * 
- * 		가.학생성적입력 : inputScore() 시작
- * 		-학번입력
- * 		-이름입력
- * 		-점수입력
- * 		나.학생의 이름을 입력하는 inputName() method는
- * 		return type String 형이기 때문에 학생이름을 입력받고 입력받은 학생이름을 return한다.
- * 		이 return 학생이름을 inputScore() 에서 변수에 담아 처리를 할 수 있다.
- */
-
 public class ScoreServiceImplV1 implements ScoreService {
 
 	protected List<ScoreVO> scoreList;
 	protected Scanner scan;
 	protected InputService inService;
-	String[] subject;
-	String strName;
-	String num;
+	protected String[] subject;
+	protected String strName;
+	protected String num;
 
 	public ScoreServiceImplV1() {
 		// TODO 변수 초기화
@@ -58,7 +43,7 @@ public class ScoreServiceImplV1 implements ScoreService {
 			String strNenu = scan.nextLine();
 			if (strNenu.equals("QUIT")) {
 				System.out.println("업무종료");
-				return;
+				break;
 			}
 			Integer intMenu = null;
 			try {
@@ -145,11 +130,5 @@ public class ScoreServiceImplV1 implements ScoreService {
 			System.out.print(VO.getTotal() + "\t");
 			System.out.print(VO.getAvg() + "\n");
 		}
-	}
-
-	@Override
-	public void selectMenu() {
-		// TODO Auto-generated method stub
-		
 	}
 }

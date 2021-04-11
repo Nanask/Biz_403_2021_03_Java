@@ -1,9 +1,8 @@
-package com.callor.App.service;
+package com.callor.App.service.Impl;
 
 import com.callor.App.model.ScoreVO;
-import com.callor.App.service.Impl.ScoreServiceImplV2;
 
-public class ScoreServiceV2 extends ScoreServiceImplV2 {
+public class ScoreServiceImplV2A extends ScoreServiceImplV1A {
 	/*
 	 * scoreList에 성적정보를 추가할 때 학번을 입력받을텐데 이미 등록한 학번 정보가 있으면 그 학번은 추가하지 못하도록 하는 코드
 	 * 
