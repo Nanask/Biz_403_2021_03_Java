@@ -1,4 +1,4 @@
-package com.Nanask.standard;
+package com.Nanask.standard.exec;
 
 import com.Nanask.standard.impl.InputServiceImplV1;
 

@@ -156,9 +156,9 @@ public class ScoreServiceImplV1A implements ScoreServiceA{
 		 * 영어, 수학 점수를 입력받은 Prompt가 나타나고 3과목을
 		 * 모두 통과 한 후 입력종료 된다
 		 */
-		if(intKor == null || intEng == null || intMath == null) {
-			return;
-		}
+//		if(intKor == null || intEng == null || intMath == null) {
+//			return;
+//		}
 		
 		// 입력을 모두 마쳤으면 VO에 담기
 		ScoreVO scoreVO = new ScoreVO();
