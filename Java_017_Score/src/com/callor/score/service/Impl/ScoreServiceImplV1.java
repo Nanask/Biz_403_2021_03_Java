@@ -12,10 +12,11 @@ import com.callor.score.model.ScoreVO;
 import com.callor.score.service.ScoreService;
 
 public class ScoreServiceImplV1 implements ScoreService {
-	protected MenuService menuService; // jar파일 가져오기
+//	protected MenuService menuService; // jar파일 가져오기
 	protected List<ScoreVO> ScoreList; // scoreVO의 GET,SET 사용하기 위함
 	protected InputService inputService; // InputValue를 사용하기 위함
 	protected Scanner scan;
+	protected MenuService menuService; 
 
 	public ScoreServiceImplV1() {
 		inputService = new InputServiceImplV1();
@@ -36,10 +37,10 @@ public class ScoreServiceImplV1 implements ScoreService {
 		scoreMenu.add("성적정보 출력"); //printScore
 
 		menuService = new MenuServiceImplV1("대한 고등학교 성적처리 시스템 2021", scoreMenu);
-		Integer menu = null;
-		while (true) {
+		Integer menu = null; 
+		while (true) { 
 
-			menu = menuService.selectMenu();
+			menu = menuService.selectMenu(); // jar파일의 menuService에서 QUIT를 입력하면 null값을 return받게 되어있으므로 null이라면 업무종료가 됨
 			if (menu == null) {
 				System.out.println("업무 종료");
 				break;
