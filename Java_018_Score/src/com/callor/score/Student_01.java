@@ -83,7 +83,7 @@ public class Student_01 {
 				
 				
 				//문자열 변수 reader를 null이 아닌 값으로 생성하는 방법
-				String reader = new String();
+				String reader1 = new String();
 				
 				//최초에 while()문에서 reader != null은 true가 된다.
 				// != null 조건문을 실행하기 전에 reader = buffer.readerLine()을
@@ -93,7 +93,7 @@ public class Student_01 {
 				// 3. () return하는 값이 null인지 아닌지를 비교한다.
 				// 4. 그 결과가 true이면 계속 코드를 진행하고 
 				// 5. 그 결과가 false이면 즉시 while명령문이 끝난다.		
-				while (reader = buffer.readLine()) != null) {
+				while ((reader1 = buffer.readLine()) != null) {
 					//내부에서 if역할을 대신하는것 
 //					reader = buffer.readLine();
 //					System.out.println(reader);
