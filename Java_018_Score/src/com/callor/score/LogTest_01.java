@@ -12,16 +12,13 @@ public class LogTest_01 {
 		try {
 			Integer intNum = Integer.valueOf(strNum);
 		} catch (NumberFormatException e) {
-			// TODO Auto-generated catch block
 			LogService.log(strNum + "는 숫자로 변환 불가!!!");
 		}
 		
 		try {
 			Integer intNum1 = Integer.valueOf(strNum1);
 		} catch (NumberFormatException e) {
-			// TODO Auto-generated catch block
-			//e.printStackTrace();
-			LogService.log(strNum1 + "는 숫자로 변환 불가!!!");
+			System.out.println("dd");
 		}
 	}
 

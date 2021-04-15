@@ -31,7 +31,7 @@ public class FileWriter_02 {
 			 * 2. 기록하고자 하는 파일이 있으면 Append Mode로 열기
 			 * 3. 새로운 내용을 print()하면 기존 내용의 끝에 계속 이어서 기록 
 			 */
-			fileWriter = new FileWriter(fileName,true);
+			fileWriter = new FileWriter(fileName,false);
 			out = new PrintWriter(fileWriter);
 			for(int i = 0 ; i < 10 ; i++) {
 				out.printf("%05d\n", i+1);

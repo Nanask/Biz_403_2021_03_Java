@@ -19,7 +19,7 @@ public class Student_01 {
 		String readFile = "src/com/callor/score/student.txt";
 		
 		// 선언하는 코드와 생성하는 코드를 분리하자!
-		// fileWriteger, FileReader : 파일을 open
+		// fileWriter, FileReader : 파일을 open
 		// PrintWriter, BufferedReader : 내용을 쓰고, 읽는 코드
 		FileReader fileReader = null;
 		BufferedReader buffer = null;

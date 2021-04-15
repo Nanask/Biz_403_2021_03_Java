@@ -118,6 +118,7 @@ public class WordServiceImplV1 implements WordService {
 		int nSize = wordList.size();
 		int num = rnd.nextInt(nSize); // 0 ~ (nSize - 1) 중의
 
+		//wordList에 담겨있는 wordList.size중의 하나 값을 vo에 담아 return하라
 		WordVO vo = wordList.get(num);
 //		System.out.println(vo.toString());
 		return vo;

@@ -113,8 +113,10 @@ public class ScoreServiceImplV1A implements ScoreService {
 	// 있으면 scoreVO return / 없으면 null을 return
 	protected ScoreVO numCheck(String num) {
 
+		//scoreList의 값을 순차적으로 vo에 담아라
 		for (ScoreVO vo : scoreList) {
-			if (vo.getNum().equals(num)) {
+			//vo.getNum()에 담겨있는 값과 입력할 strNum값이 같은지 비교하고 같다면 
+			if (vo.getNum().equals(num)) { 
 				return vo;
 			}
 		}
