@@ -8,9 +8,12 @@ public class MainEx_03 {
 		int num2 = 20;
 		
 		AddInt addInt = new AddInt();
-		int sum = addInt.add(num1 + num2);
+		
+		int sum = addInt.add(num1, num2);
 		System.out.println(sum);
-		//출력결과는 30
+		// 출력결과는 30
+		
 	}
+		
 
 }

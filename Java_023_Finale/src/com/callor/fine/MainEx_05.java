@@ -20,14 +20,18 @@ public class MainEx_05 {
 			int index = 0;
 			
 			for(index = 2 ; index < nums.length ; index++) {
-				if(? % ?? == 0) {
+				if(nums[i] % index == 0) {
 					break;
 				}
+				//소수는 1과 자기자신의 숫자 이외에 나눠지지 않는다.
+				//nums[i] = 10 index = 1,2,
+				
 			}
-			if(? < ??) {
-				System.out.println();
+			if(nums[i] <= index) {
+				System.out.println(nums[i] + "는 소수이다.");
+				
 			}else {
-				System.out.println();
+				System.out.println(nums[i] + "는 소수가 아니다.");
 			}
 		}
 
